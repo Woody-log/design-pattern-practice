@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a582e0dc-7d3d-4e7f-9867-65b9157ae6ee" name="Default Changelist" comment="템플릿 메소드 추가">
-      <change afterPath="$PROJECT_DIR$/src/Facade/FacadepPatternExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/GeoLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/InternetConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/Json.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/MyLocFacade.java" afterDir="false" />
+    <list default="true" id="a582e0dc-7d3d-4e7f-9867-65b9157ae6ee" name="Default Changelist" comment="퍼사드 패턴 추가">
+      <change afterPath="$PROJECT_DIR$/src/Adapter/AdapterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/FindAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/SearchButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/SearchFindAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/SearchStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/DecoratorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/FighterDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/LaserDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/MissilDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/PlasmaDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/XWingFight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -41,7 +49,33 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.AdapterExample">
+    <configuration name="AdapterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Adapter.AdapterExample" />
+      <module name="design-patten-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecoratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.DecoratorExample" />
+      <module name="design-patten-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strategy.Main" />
       <module name="design-patten-practice" />
@@ -79,9 +113,13 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.DecoratorExample" />
+      <item itemvalue="Application.AdapterExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdapterExample" />
+        <item itemvalue="Application.DecoratorExample" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -98,7 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626356225843</updated>
       <workItem from="1626356230290" duration="2018000" />
-      <workItem from="1626679102296" duration="4059000" />
+      <workItem from="1626679102296" duration="8454000" />
     </task>
     <task id="LOCAL-00001" summary="템플릿 메소드 추가">
       <created>1626679609188</created>
@@ -107,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626679609188</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="퍼사드 패턴 추가">
+      <created>1626684381741</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626684381741</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="템플릿 메소드 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="템플릿 메소드 추가" />
+    <MESSAGE value="퍼사드 패턴 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="퍼사드 패턴 추가" />
   </component>
 </project>

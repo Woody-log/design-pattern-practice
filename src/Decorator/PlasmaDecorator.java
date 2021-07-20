@@ -1,0 +1,12 @@
+package Decorator;
+
+public class PlasmaDecorator extends FighterDecorator{
+    public PlasmaDecorator(Fighter _decoratorFighter) {
+        super(_decoratorFighter);
+    }
+    @Override
+    public void attack() {
+        super.attack();
+        System.out.println("플라즈마 발사");
+    }
+}
